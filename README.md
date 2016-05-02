@@ -1,5 +1,14 @@
 #build.gradle文件配置
 
+project下的build.gradle文件
+
+```java
+   classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.6'
+   classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+```
+
+module下的build.gradle文件
+
 ```java
 ext {
     bintrayRepo = 'maven'////bintray上的仓库名，一般为maven
