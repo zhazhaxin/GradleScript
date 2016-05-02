@@ -1,5 +1,7 @@
 #build.gradle文件配置
 
+###[上传jcenter教程](https://github.com/llxdaxia/GradleScript/blob/master/add_to_jcenter_course.md)
+
 ###project下的build.gradle文件
 
 ```java
