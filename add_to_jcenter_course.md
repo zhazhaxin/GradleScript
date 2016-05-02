@@ -5,10 +5,10 @@
 登录账号以后，记录下自己的API Key。
 
 登录账号以后，点击右上角头像打开自己的主页，然后看到左上角的地方有个Edit按钮
-![Alt text](./click_edit.png)
+![Alt text](./image/click_edit.png)
 
 找到左下角的API Key选项，记录下来
-![Alt text](./apikey.png)
+![Alt text](./image/apikey.png)
 
 **注意**：如果网站打不开或者很慢，建议[翻墙](http://gjsq.me/11664436)（使用过的最好用最快的VPN）。
 
@@ -19,7 +19,7 @@
 **然后新建一个`module`，用于编写自己的库，用于上传到bintray**。
 **注意**：`只有module才能上传到jcenter`。
 
-![Alt text](./project.png)
+![Alt text](./image/project.png)
 
 ###第三步
 
@@ -32,7 +32,7 @@
 
 如图
 
-![Alt text](./project_gradle.png)
+![Alt text](./image/project_gradle.png)
 
 也可以看这里的[build.gradle文件](https://github.com/llxdaxia/RestHttp/blob/dev/build.gradle)
 
@@ -85,25 +85,25 @@ bintray.user=用户名
 ###第四步
 
 在Android studio左下角点开`Terminal`
-![Alt text](./Terminal.png)
+![Alt text](./image/Terminal.png)
 
 输入命令`gradlew bintrayupload`，坐等上传成功，如图
 
-![Alt text](./success.png)
+![Alt text](./image/success.png)
 
 ###第五步
 
 再一次打开`bintary`官网，登录账号，在左下角的地方可以看到
 
-![Alt text](./libray.png)
+![Alt text](./image/libray.png)
 
 点击进入后，在右下角可以看到
 
-![Alt text](./add_to_jcenter.png)
+![Alt text](./image/add_to_jcenter.png)
 
 `linked to (0)`说明还没有链接任何其他的仓库，然后点击`add to JCenter` 连接到jcenter。
 
-![Alt text](./request.png)
+![Alt text](./image/request.png)
 
 随便写点什么，然后提交坐等JCenter工作人员审核，一般一天就好了。
 
