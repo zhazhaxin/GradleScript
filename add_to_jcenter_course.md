@@ -1,6 +1,6 @@
-#Android库上传到jcenter
+# Android库上传到jcenter
 
-###第一步
+### 第一步
 >[注册bintray账号](https://bintray.com/)，建议使用github账号直接登录。
 登录账号以后，记录下自己的API Key。
 
@@ -12,7 +12,7 @@
 
 **注意**：如果网站打不开或者很慢，建议[翻墙](http://gjsq.me/11664436)（使用过的最好用最快的VPN）。
 
-###第二步
+### 第二步
 
 在Android studio中新建一个`project`（项目）目录下有一些`build.gradle`文件，分为两种：一种是`project`级别的gradle文件（全局设置）。一种是每个`module`对应一个gradle文件，设置是局部的。
 
@@ -21,7 +21,7 @@
 
 ![Alt text](./image/project.png)
 
-###第三步
+### 第三步
 
 打开项目project的`build.gradle`文件，添加两个插件（目前是最新版本，如果后期需要更新，可以到`bintray`上面去搜）
 
@@ -82,7 +82,7 @@ bintray.apikey=刚才记录的API Key
 bintray.user=用户名
 ```
 
-###第四步
+### 第四步
 
 在Android studio左下角点开`Terminal`
 ![Alt text](./image/Terminal.png)
@@ -91,7 +91,7 @@ bintray.user=用户名
 
 ![Alt text](./image/success.png)
 
-###第五步
+### 第五步
 
 再一次打开`bintary`官网，登录账号，在左下角的地方可以看到
 
